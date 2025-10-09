@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>4g.plus</string>
+    <key>PayloadUUID</key>
+    <string>f9dbd18b-90ff-58c1-8605-5abae9c50691</string>
+    <key>PayloadDisplayName</key>
+    <string>SOFTBANK SUNSHINE TELECOM</string>
+    <key>PayloadDescription</key>
+    <string>APN SOFTBANK SUNSHINE TELECOM</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.cellular</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>4g.plus.cellular</string>
+        <key>PayloadUUID</key>
+        <string>abe73093-187c-5361-8497-8dbb98c47ac9</string>
+        <key>PayloadDisplayName</key>
+        <string>SOFTBANK SUNSHINE TELECOM</string>
+        <key>PayloadDescription</key>
+        <string>APN SOFTBANK SUNSHINE TELECOM</string>
+        <key>AttachAPN</key>
+        <dict>
+          <key>Name</key>
+          <string>plus.4g</string>
+          <key>AuthenticationType</key>
+          <string>CHAP</string>
+          <key>Username</key>
+          <string>plus</string>
+          <key>Password</key>
+          <string>4g</string>
+        </dict>
+        <key>APNs</key>
+        <array>
+          <dict>
+            <key>Name</key>
+            <string>plus.4g</string>
+            <key>AuthenticationType</key>
+            <string>CHAP</string>
+            <key>Username</key>
+            <string>plus</string>
+            <key>Password</key>
+            <string>4g</string>
+            <key>DefaultProtocolMask</key>
+            <integer>3</integer>
+            <key>AllowedProtocolMask</key>
+            <integer>3</integer>
+          </dict>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>

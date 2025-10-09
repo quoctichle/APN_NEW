@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>DOCOMO 50GB SUNSHINE TELECOM</string>
+	</dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                       <key>AttachAPN</key>
+                       <dict>
+                          <key>Name</key>
+                          <string>psim.jp</string>
+                          <key>AuthenticationType</key>
+                          <string>CHAP</string>
+                          <key>Username</key>
+                          <string>japan@psim</string>
+                          <key>Password</key>
+                          <string>japan</string>
+                        </dict>
+                        <key>APNs</key>
+                        <array>
+                            <dict>
+                                <key>Name</key>
+                                <string>psim.jp</string>
+                                <key>AuthenticationType</key>
+                                <string>CHAP</string>
+                                <key>Username</key>
+                                <string>japan@psim</string>
+                                <key>Password</key>
+                                <string>japan</string>
+                            </dict>
+                        </array>
+                <key>PayloadDescription</key>
+                <string>Provides customization of carrier Access Point Name.</string>
+                <key>PayloadDisplayName</key>
+                <string>DOCOMO 50GB SUNSHINE TELECOM</string>
+                <key>PayloadIdentifier</key>
+                <string>jp.psim</string>
+                <key>PayloadOrganization</key>
+                <string>SUNSHINE TELECOM</string>
+                <key>PayloadType</key>
+                <string>com.apple.cellular</string>
+                <key>PayloadUUID</key>
+                <string>7d2ba7c5-1e94-50a0-c46a-7f08c0ad6fa2</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>DOCOMO 50GB SUNSHINE TELECOM</string>
+        <key>PayloadDisplayName</key>
+        <string>APN DOCOMO 50GB SUNSHINE TELECOM</string>
+        <key>PayloadIdentifier</key>
+        <string>jp.psim</string>
+        <key>PayloadOrganization</key>
+        <string>SUNSHINE TELECOM</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>5e113d2b-237c-4c81-9874-9a38e57b2bff</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+</dict>
+</plist>

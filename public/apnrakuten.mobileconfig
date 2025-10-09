@@ -1,0 +1,63 @@
+<?xml version=”1.0” encoding=”UTF-8”?>
+<!DOCTYPE plist PUBLIC “-//Apple//DTD PLIST 1.0//EN” “http://www.apple.com/DTDs/PropertyList-1.0.dtd”>
+<plist version=”1.0”>
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>Rakuten SUNSHINE TELECOM</string>
+    <key>PayloadIdentifier</key>
+    <string>jp.rmobile</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>b91f4c5d-3f0d-4b05-b35d-8446887599ce</string>
+    <key>PayloadOrganization</key>
+    <string>SUNSHINE TELECOM</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+           <key>PayloadType</key>
+           <string>com.apple.cellular</string>
+           <key>PayloadVersion</key>
+           <integer>1</integer>
+           <key>PayloadIdentifier</key>
+           <string>jp.rmobile.cellular</string>
+           <key>PayloadUUID</key>
+           <string>301bfbc5-0d37-4c12-8e66-1bdf6a22b440</string>
+           <key>PayloadDisplayName</key>
+           <string>APN Rakuten SUNSHINE TELECOM</string>
+           <key>PayloadDescription</key>
+           <string>APNペイロードがインストール済みであれば、このペイロードはインストールできません。</string>
+           <key>AttachAPN</key>
+           <dict>
+                  <key>Name</key>
+                  <string>p.rcomm.jp</string>
+                  <key>AuthenticationType</key>
+                  <string>CHAP</string>
+                  <key>Username</key>
+                  <string>rm</string>
+                  <key>Password</key>
+                  <string>0000</string>
+           </dict>
+           <key>APNs</key>
+           <array>
+           <dict>
+                  <key>Name</key>
+                  <string>p.rcomm.jp</string>
+                  <key>AuthenticationType</key>
+                  <string>CHAP</string>
+                  <key>Username</key>
+                  <string>rm</string>
+                  <key>Password</key>
+                  <string>0000</string>
+                  <key>DefaultProtocolMask</key>
+                  <integer>3</integer>
+                  <key>AllowedProtocolMask</key>
+                  <integer>3</integer>
+          </dict>
+          </array>
+    </dict>
+  </array>
+</dict>
+</plist>
